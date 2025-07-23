@@ -44,6 +44,12 @@
     text-align: left;
 }
 
+.color-orenge {
+    color: rgba(233, 90, 8, 1);
+    font-family: Inter;
+
+}
+
 /* header style */
 .nav {
     justify-content: space-between;
@@ -51,7 +57,8 @@
     max-width: 1140px;
     height: 71px;
     margin: 0 auto;
-    
+    border: 1px solid red;
+
     margin-top: 30px;
 
 
@@ -64,13 +71,13 @@
 
 .Menu-items {
     gap: 48px;
-    
+
 
 }
 
 .list {
     list-style: none;
-    
+
     gap: 48px;
 
 }
@@ -79,19 +86,59 @@
     gap: 10px;
 }
 
+/* banner style */
+.banner {
+    max-width: 1140px;
+    height: 461px;
+    margin: 0 auto;
+    margin-top: 120px;
+   
+    align-items: flex-end;
 
+}
+
+.banner-left {
+    max-width: 570px;
+    height: 299px;
+    gap: 13px;
+    
+
+}
+
+.banner-Title {
+    font-family: Inter;
+    font-size: 4rem;
+
+}
+
+.banner-paragraph {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    font-family: Inter;
+    text-align: left;
+}
+
+
+.banner img {
+    max-width: 570px;
+    height: 355px;
+    
+
+}
 
 
 
 /* responsive css style*/
 @media screen and (max-width: 576px) {
-    .nav{
+    .nav {
         max-width: 361px;
         height: 38px;
         gap: 185px;
-        border: 2px solid red;
+        margin-bottom: 28px;
         margin-top: 67px;
+        justify-items: center;
     }
+
     .list {
         display: none;
     }
@@ -99,15 +146,75 @@
     .nav img {
         max-width: 63px;
         height: 38px;
-        border: 2px solid red;
-        
-    }
-    .cart-icon{
-        max-width: 113px;
-        height: 24px;
-        border: 2px solid red;
         
 
     }
-    
+
+    .cart-icon {
+        max-width: 113px;
+        height: 24px;
+
+
+
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        justify-items: center;
+        max-width: 393px;
+        border: 1px solid red;
+        margin-top: 28px;
+        
+        
+
+    }
+
+    .banner img {
+        max-width: 393px;
+        height: 245px;
+         border: 1px solid red;
+         margin-bottom: 28px;
+         position: relative;
+         top: -40px;
+        
+
+
+    }
+
+    .banner-left {
+        max-width: 361px;
+        height: 147px;
+        gap: 13px;
+        border: 1px solid red;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding: 0;
+        position: relative;
+        top: -28px;
+        bottom: 0px;
+        
+
+    }
+
+    .banner-Title {
+        font-family: Noto Serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+    .banner-paragraph {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+
+
+
 }

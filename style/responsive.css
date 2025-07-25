@@ -330,7 +330,7 @@
     grid-template-rows: repeat(2, 1fr);
     max-width: 1140px;
     height: 423px;
-    border: 1px solid red;
+    
     row-gap: 20px;
     margin: 0 auto;
     position: relative;
@@ -440,7 +440,7 @@
     border-radius: 0.4rem;
     position: relative;
     position: absolute;
-    border: 1px solid red;
+  
     right: 0px;
     bottom: -0px;
     top: 0px;
@@ -493,6 +493,164 @@
 
 }
 
+/* Join Section */
+.Join-Section {
+    
+    max-width: 1440px;
+    height: 533px;
+    margin: 0 auto;
+    position: relative;
+    top: 680px;
+
+
+}
+
+/* .Join-Section h2 {
+    border: 1px solid red;
+
+} */
+
+.Join-Section .input {
+    
+    max-width: 200px;
+
+}
+
+.Join {
+   
+    width: 800px;
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    margin-top: 199px;
+    margin-left: 305px;
+}
+
+.Join input {
+    width: 610px;
+    padding: 16px;
+
+
+}
+
+/* .Join-Section button {
+    border: 1px solid red;
+
+} */
+
+.Join h2 {
+    color: rgb(255, 255, 255);
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+/* .Join{
+    position: absolute;
+    border: 1px solid red;
+    max-width: 1200px;
+} */
+.Join-Section img {}
+
+.Join-Section button {
+    width: 150px;
+    height: 50px;
+
+    background-color: rgb(233, 90, 8);
+
+    border: none;
+}
+
+.Join-Section button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+/* footer-section */
+.footer-section {
+    max-width: 1120px;
+    height: 248px;
+    
+    margin: 0 auto;
+    position: relative;
+    top: 760px;
+    justify-content: space-between;
+
+}
+
+.Website-logo-left {
+
+    max-width: 359px;
+    height: 179px;
+}
+
+.Website-logo-left img {
+    max-width: 100%;
+}
+
+.Website-logo-left p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    max-width: 359px;
+    height: 81px;
+    margin-top: 40px;
+}
+
+.footer-items {
+    gap: 40px;
+}
+
+.footer-items ul {
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    /* list-style: none;
+    height: 248px;
+    
+
+    border: 1px solid red; */
+}
+
+.footer-items li a {
+    text-decoration: none;
+
+    color: rgb(107, 114, 128);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer-icon {
+
+    max-width: 216px;
+    height: 36px;
+    gap: 24px;
+
+}
+
+.footer-icon img {
+    max-width: 36px;
+    height: 36px;
+}
 
 
 
@@ -678,7 +836,7 @@
         flex-direction: column;
         max-width: 358px;
         margin-top: -80px;
-        border: 2px solid red;
+        
         justify-items: center;
     }
 
@@ -692,7 +850,7 @@
 
     .Plants-Lover-right {
         max-width: 361px;
-        border: 1px solid red;
+        
         margin-left: 0px;
         margin-top: 18px;
     }
@@ -705,12 +863,12 @@
         line-height: 33px;
         letter-spacing: 0%;
         text-align: left;
-        border: 1px solid red;
+        
     }
 
     .Plants-Lover-right ul {
         margin-top: -104px;
-        border: 1px solid red;
+        
     }
 
     .Plants-Lover-right li {
@@ -722,7 +880,7 @@
         font-weight: 400;
         line-height: 17px;
         text-align: left;
-        border: 1px solid red;
+        
 
     }
 
@@ -730,7 +888,7 @@
     .Challenges-Part {
         max-width: 393px;
         margin-top: 143px;
-        border: 1px solid red;
+        
         justify-items: center;
         margin: 0 auto;
 
@@ -746,7 +904,7 @@
         font-size: 0.8rem;
         line-height: 17px;
         text-align: center;
-        border: 1px solid red;
+        
 
     }
 
@@ -755,12 +913,13 @@
     .Card-layout {
         grid-template-columns: repeat(1, 1fr);
         max-width: 361px;
-        border: 1px solid red;
+        
         justify-items: center;
         top: 51px;
         gap: 20px;
 
     }
+
     /* .Card-image img {
 
         max-width: 361px;
@@ -770,37 +929,41 @@
     } */
 
 
-    
+
     .Card-layout-items-1 {
         position: relative;
-        
+
     }
+
     .Card-layout-items-2 {
         position: relative;
         top: -60px;
-        
+
         left: -4px;
     }
+
     .Card-layout-items-3 {
         position: relative;
         top: -30px;
     }
-    .items-1{
-        font-size: 1rem;
-        
 
-    } 
-    .items-3{
+    .items-1 {
+        font-size: 1rem;
+
+
+    }
+
+    .items-3 {
         font-size: 1rem;
         top: 120px;
-        
-        
 
-    } 
+
+
+    }
 
     .items-2 {
         /* display: none; */
-        border: 2px solid red;
+        
         position: relative;
         max-width: 270px;
         height: 77px;
@@ -809,46 +972,132 @@
         font-size: 1rem;
 
     }
+
     /* .items-3{
         p
 
     } */
-     .items-2 a{
-        border: 1px solid red;
+    .items-2 a {
+        
         position: relative;
         top: 8px;
 
-     }
-    
-     .Card-layout-items-2 img {
+    }
+
+    .Card-layout-items-2 img {
 
         max-width: 361px;
         height: 206px;
         position: relative;
         top: 0px;
         left: 2px;
-        
+
     }
+
     .Card-layout-items-1 img {
         max-width: 361px;
         height: 206px;
-        border: 2px solid red;
         
+
     }
+
     .Card-layout-items-3 img {
         max-width: 361px;
         height: 206px;
         position: relative;
         top: 40px;
-        
-        border: 2px solid red;
 
+
+    }
+
+    .Join-Section {
+        max-width: 393px;
+        height: 275px;
+        
+        margin-top: 54px;
+
+
+    }
+
+    .Join-Section img {
+        max-width: 100%;
+        height: 275px;
+
+
+    }
+
+    .Join {
+        position: absolute;
+        width: 321px;
+        height: 100px;
+        left: -280px;
+        top: -100px;
+        
+
+    }
+
+    .Join h2 {
+
+        font-family: Noto Serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+
+        text-align: center;
+    }
+
+    .Join input {
+        width: 218px;
+        
+        position: absolute;
+        left: 2px;
+        top: 50px;
+
+    }
+
+    .Join button {
+        width: 104px;
+        position: absolute;
+        left: 220px;
+        top: 50px;
+
+    }
+
+    /* footer-section */
+    .footer-section {
+        flex-direction: column;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(18px);
+        background: rgba(255, 255, 255, 0.5);
+        max-width: 393px;
+
+    }
+    .footer-items{
+        flex-direction: column;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(18px);
+        background: rgba(255, 255, 255, 0.5);
+        max-width: 393px;
+        position: relative;
+        top: 20px;
+
+    }
+
+    .footer-items ul {
+        
+        gap: 20px;
+
+    }
+    .footer-icon{
+        position: relative;
+        top: 30px;
         
     }
 
-    
-   
-   
+
+
 
 
 
